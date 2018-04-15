@@ -46,8 +46,10 @@ export default {
         left 50%
         transform translate(-50%, -50%)
     .header-logo
+      height  1.2rem
       padding .3rem
       font-size .4rem
+      box-sizing border-box
       display inline-block
       vertical-align middle
       font-family "PingFang-SC", "Hiragino Sans GB", "微软雅黑", "Microsoft YaHei", "Heiti SC"
@@ -61,10 +63,8 @@ export default {
     .header-slogan
       width 100%
       bottom 0
-      top 0
-      position relative
+      top 1.2rem
       background-color rgba(30,30,30,0.1)
-      height 2.8rem
       box-sizing border-box
       padding .5rem
       .header-slogan-big
@@ -73,5 +73,4 @@ export default {
       .header-slogan-small
         padding .3rem 0
         font-size .3rem
-
 </style>
