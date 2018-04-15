@@ -52,21 +52,20 @@ export default {
       box-sizing border-box
       display inline-block
       vertical-align middle
-      font-family "PingFang-SC", "Hiragino Sans GB", "微软雅黑", "Microsoft YaHei", "Heiti SC"
       .logo-link, .logo-link:visited
         color: #fff
         .logo-icon
           font-size .6rem
         .logo-font
           font-weight bold
-
     .header-slogan
       width 100%
       bottom 0
       top 1.2rem
-      background-color rgba(30,30,30,0.1)
+      // background-color rgba(30,30,30,0.1)
       box-sizing border-box
-      padding .5rem
+      padding .4rem
+      position absolute
       .header-slogan-big
         font-size .5rem
         font-weight 700
