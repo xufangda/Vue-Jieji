@@ -1,13 +1,17 @@
 <template>
-  <div>Home</div>
+  <home-header></home-header>
 </template>
 
 <script>
+import HomeHeader from './components/header'
 export default {
-
+  name: 'home',
+  components: {
+    HomeHeader
+  }
 }
 </script>
 
-<style >
+<style lang="stylus" scoped>
 
 </style>
