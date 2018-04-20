@@ -1,8 +1,8 @@
 <template>
   <div class="home">
     <home-header></home-header>
-    <home-icons></home-icons>
-    <!-- <home-picker></home-picker> -->
+    <!-- <home-icons></home-icons> -->
+    <home-picker></home-picker>
   </div>
 </template>
 

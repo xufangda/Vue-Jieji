@@ -46,4 +46,5 @@ export default {
     flex-grow 2
     text-align center
     height 100%
+
 </style>
